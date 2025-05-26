@@ -1,0 +1,8 @@
+Gene,Druggable
+KRT8,No
+GAPDH,Yes
+PKM,Yes
+VDAC1,Yes
+SEC61G,No
+CCND1,Yes
+PGK1,Yes
