@@ -7,7 +7,7 @@ from collections import Counter
 import numpy as np
 
 # Define the path to the .pkl file
-input_path = "/data/sr933/scRCC/combined_data/RCC_data_dict.pkl"
+input_path = "/home/sr933/rcc_data/scRCC/combined_data/RCC_data_dict.pkl"
 
 # Load the dictionary from the .pkl file
 with open(input_path, "rb") as f:
