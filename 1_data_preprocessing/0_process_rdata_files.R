@@ -1,7 +1,7 @@
 # Load Seurat library
 .libPaths(c("~/R/libs", .libPaths()))
 library(Seurat)
-obj <- readRDS("/data/sr933/scRCC/Tcell_CD8_other_ha.1.RDS")
+obj <- readRDS("/data/sr933/scRCC/Tcell_CD8_other_ha.1.RDS") #Replace with your file path
 print(class(obj))
 
 # Assume `seurat_obj` is your SeuratObject
@@ -13,4 +13,4 @@ expression_matrix <- GetAssayData(object = obj, slot = "counts")
 expression_df <- as.data.frame(as.matrix(expression_matrix))
 
 # Save as a CSV file
-saveRDS(expression_df, file = "/data/sr933/scRCC/CD8_cells_expression_matrix.rds")
+saveRDS(expression_df, file = "/data/sr933/scRCC/CD8_cells_expression_matrix.rds") #Replace with your file path

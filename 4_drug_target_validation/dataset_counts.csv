@@ -1,8 +1,0 @@
-dataset,tumour,non_tumour
-American,6903,8196
-Chinese,8545,46443
-Metastasis,1238,97614
-Lithuanian,3039,47197
-TCGA_KIRC,533,73
-Czech_GSE167093,503,153
-Train,6062,266801

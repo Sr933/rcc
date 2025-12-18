@@ -6,6 +6,7 @@ from typing import Dict, Iterable, Tuple
 
 import pandas as pd
 
+#Specify paths to input files
 AGG_LGBM_PATH = Path("/home/sr933/rcc_data/data/aggregated_lgbm_top100_by_freq.csv")
 AGG_SHAP_PATH = Path("/home/sr933/rcc_data/data/aggregated_shap_top100_by_freq.csv")
 TARGET_PATH = Path("/home/sr933/rcc/4_network_analysis/data/key_proteins_muanually_filtered.txt")
