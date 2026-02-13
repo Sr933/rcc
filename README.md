@@ -3,14 +3,17 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1038/s44386--025--00036--z-blue)](https://doi.org/10.1038/s44386-025-00036-z)
 [![Journal](https://img.shields.io/badge/npj%20Drug%20Discovery-2026-green)](https://www.nature.com/articles/s44386-025-00036-z)
 
-> **Ruhrberg Estévez, S., Baltusyte, G., Youssef, G. et al.** A systems-level machine learning approach uncovers therapeutic targets in clear cell renal cell carcinoma. *npj Drug Discov.* **3**, 5 (2026). [https://doi.org/10.1038/s44386-025-00036-z](https://doi.org/10.1038/s44386-025-00036-z)
-
 ---
 
 ## Overview
 
 <p align="center">
   <img src="overview.png" alt="Pipeline overview" width="100%">
+</p>
+
+<p align="center">
+  <em>Ruhrberg Estévez, S., Baltusyte, G., Youssef, G. et al. <strong>npj Drug Discov.</strong> 3, 5 (2026).
+  <a href="https://doi.org/10.1038/s44386-025-00036-z">https://doi.org/10.1038/s44386-025-00036-z</a></em>
 </p>
 
 We present a generalisable, interpretable machine learning framework for therapeutic target discovery using single-cell transcriptomics, protein interaction networks, and drug proximity analysis. The pipeline integrates feature selection via gradient boosting classifiers, systems-level network inference, and in silico drug repurposing, enabling the identification of actionable targets with cellular specificity. As a proof of concept, we apply the method to clear cell renal cell carcinoma (ccRCC), an aggressive kidney cancer with limited treatment options. The model identifies 96 tumour-intrinsic genes, refines them to 16 targets through CRISPR screens and biological curation, and prioritises FDA-approved compounds via network-based proximity scoring. Several novel therapeutic mechanisms — including ABL1, CDK4/6, and JAK inhibition — emerge from this analysis, with predicted compounds showing superior efficacy to standard-of-care drugs across multiple ccRCC cell lines. Beyond ccRCC, this framework offers a scalable strategy for drug discovery across diverse diseases, combining machine learning interpretability with systems biology to accelerate therapeutic development.
@@ -85,10 +88,6 @@ The pipeline is designed to be run in numbered order:
 | `seaborn` / `matplotlib` | Plotting and visualisation |
 
 ---
-
-## License
-
-Please refer to the publication for terms of use.
 
 ## Citation
 
